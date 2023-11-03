@@ -1,38 +1,26 @@
-const logotext = "JOHN";
+const logotext = "MOHAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "MOHAN KISHORE",
+    description: "Hello there, I'm Mohan Kishoore _ Full stack devloper,currently working on my dreams",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "It's me Mohan Kishore",
     animated: {
-        first: "I love coding",
+        first: "I love to CODE....I have to CODE",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I can code MERN FULL STACK",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I'm Mohan Kishore, a B.Tech Computer Science student with a passion for coding and a relentless focus on building a successful career in technology. Welcome to my portfolio, where I showcase my journey, projects, and commitment to innovation in the world of computer science.",
+    img: "https://www.bing.com/images/search?view=detailV2&ccid=DSUNJ94c&id=DA247E65E355D49A841B5168448B6C5AAF77A221&thid=OIP.DSUNJ94cAu7nR8aJiwCY1gAAAA&mediaurl=https%3a%2f%2fimages.pling.com%2fcache%2f400x400%2fimg%2f00%2f00%2f61%2f57%2f57%2f1580593%2f03ce2c3be6a68119d58efe124b0f2d4ca54c3d117d5df9b69992d9935732ce7c9b3f.jpg&exph=400&expw=400&FORM=IDPCAR&ck=E878C0FC1800B2055D56DC0A5D3561F1&reqid=8665715C5206481FBE853BAFCCABEA4C&selectedIndex=6&idpp=insfeed"
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am Mohan Kishore, a dedicated computer science enthusiast currently pursuing my Bachelor of Technology (B.Tech) in Computer Science. With a passion for coding and an unwavering focus on building a successful career in technology, I am on a journey of continuous learning and growth.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        where: "Still excelling in my studies",
     },
 ];
 
@@ -41,7 +29,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "React",
         value: 85,
     },
     {
@@ -49,96 +37,32 @@ const skills = [{
         value: 80,
     },
     {
-        name: "React",
+        name: "JAVA",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Node",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Cool web Designs",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://mohanbmk.github.io/Candy-Shop/css/style/pngegg.png",
+        description: "A tasty candy shop",
+        link: "https://mohanbmk.github.io/Candy-Shop/cart.html",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "mohankishorebadugu@gmail.com.com",
+    YOUR_FONE: "8501863089",
+    description: " ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,7 +71,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/MohanBMK",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
